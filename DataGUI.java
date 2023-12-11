@@ -182,7 +182,7 @@ public class DataGUI extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\RedietBerhe\\Downloads\\underwater2.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(-3, 0, 560, 400);
+        jLabel2.setBounds(0, 0, 560, 400);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

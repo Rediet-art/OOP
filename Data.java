@@ -86,6 +86,10 @@ public class Data {
         this.companyName = companyName;
     }
     
+     public String getDetails(){
+        return "Company Details: "+companyName+","+fuel+","+sold+","+caught+","+totalFish+","+hour;
+    }
+    
     
     
     

@@ -19,15 +19,12 @@ public class BelowWaterApp {
         // TODO code application logic here
         
 
-        /*String ans;
-
-        do{
-            myUI.menu();
-            ans = JOptionPane.showInputDialog(null, "Would you like to return to the menu? Yes/No");
-        }
-        while(ans.equalsIgnoreCase("yes"));*/
         
-        DataGUI myGUI = new DataGUI();
+        
+        /*DataGUI myGUI = new DataGUI();
+        myGUI.setVisible(false);*/
+        
+        BelowWaterGUI myGUI= new BelowWaterGUI();
         myGUI.setVisible(true);
     }
     

@@ -19,7 +19,7 @@ public class Company {
 
     public Company(){
 
-       ArrayList<String> companyName = new ArrayList<>(Arrays.asList("Mackerel","Whiting","Pollack", "Codling"));
+       ArrayList<String> companyName;
     }
 
     public String[] getCompanyName() {
@@ -30,7 +30,8 @@ public class Company {
         this.companyName = companyName;
     }
 
-
+   
+    
     
 
 }
